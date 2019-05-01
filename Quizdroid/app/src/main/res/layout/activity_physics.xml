@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+        <TextView
+                android:text="@string/topic_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/topicOverviewPhysics"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" android:textAlignment="center"
+                android:paddingTop="16dp"/>
+        <TextView
+                android:text="@string/physics_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/physicsSummary" android:textAlignment="center"
+                android:textSize="18sp"
+                android:paddingTop="16dp"/>
+        <TextView
+                android:text="@string/total_questions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView3" android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:paddingTop="16dp"/>
+        <TextView
+                android:text="@string/questions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/questionsMath2" android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:paddingBottom="32dp"/>
+        <Button
+                android:text="@string/begin_button"
+                android:layout_width="278dp"
+                android:layout_height="88dp" android:id="@+id/physicsBegin"
+        />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

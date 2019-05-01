@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+        <TextView
+                android:text="@string/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:paddingBottom="32dp"/>
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="251dp" app:layout_constraintBottom_toBottomOf="parent"
+                android:paddingBottom="32dp">
+            <RadioButton
+                    android:text="@string/answer_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/answer01" android:layout_weight="1"/>
+            <RadioButton
+                    android:text="@string/answer_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/answer02" android:layout_weight="1"/>
+            <RadioButton
+                    android:text="@string/answer_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/answer03" android:layout_weight="1"/>
+            <RadioButton
+                    android:text="@string/answer_04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/answer04" android:layout_weight="1"/>
+        </RadioGroup>
+        <Button
+                android:text="@string/submit_button"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content" android:id="@+id/buttonSubmit" android:enabled="false"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
