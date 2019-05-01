@@ -1,0 +1,174 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\ea4681236a4aed9cf5ec989098bfe464\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\3487f5211a09bde32b98947c76eb6dc4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\8dd2c2ba743e4a5f301a98a5e7b829ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\6c67750c9f42f3ec57ea60232c762b24\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\e34ef94a4443a58ac835f85074b1aab1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\d602c95821c909c36b94e0f3c9bf775e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\6f3f6c172a59d9cb668c02610a1d1b8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\64779d4780e4348994de2658e20b68b7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\4a8216272d39554742aa5b0c9e85ba45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\6f54b70e2d19edff6b40e0eb0edb7d60\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\d24f5c37c13f95ce6ca12e9464b69f41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\82a7f199060271d182589eff841f043e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\cf3cd1984bd5f9eac250d92da077e340\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\9ab7756959477ae09eee262ffd3317ff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\9fd0b8fd06a422c154ad2f50a58f748f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\4bf2ea3596072d52c6ecd8839a333685\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\74fcbb2276e496e8575a27088e1b74be\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\b0c65a247183c99a3aa59b1e5adca20b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\eacebed6c2a908dd9bae0edeb8424c56\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\aad1075727905f85aa92907e9bd8a567\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\94d710647ff0dc40cd4750d5bffa5e96\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\caff1934dbdb7736347a5af48d31151e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\f6353fc024442b178868d0e1e0dcc61c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\5b63091a0fb658ef7a86b9768b564670\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\96c591fdf828cff9531344a49bb67af8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\c67f3258fde32c1dfde6c5909744e4b1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\335d671d6119eec3d005896c93a6452d\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:3:11-52
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:5:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\3487f5211a09bde32b98947c76eb6dc4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\3487f5211a09bde32b98947c76eb6dc4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\4bf2ea3596072d52c6ecd8839a333685\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\4bf2ea3596072d52c6ecd8839a333685\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\74fcbb2276e496e8575a27088e1b74be\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\74fcbb2276e496e8575a27088e1b74be\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\4bf2ea3596072d52c6ecd8839a333685\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:11:13-44
+activity#edu.washington.alkwan.quizdroid.AnswerActivity
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:12:9-13:20
+	android:name
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:12:19-49
+activity#edu.washington.alkwan.quizdroid.MainActivity
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:16:17-68
+	android:name
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:18:27-74
+activity#edu.washington.alkwan.quizdroid.MathActivity
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:21:9-22:20
+	android:name
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:21:19-47
+activity#edu.washington.alkwan.quizdroid.PhysicsActivity
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:23:9-24:20
+	android:name
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:23:19-50
+activity#edu.washington.alkwan.quizdroid.MarvelActivity
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:25:9-26:20
+	android:name
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:25:19-49
+activity#edu.washington.alkwan.quizdroid.QuizActivity
+ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:27:9-28:20
+	android:name
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml:27:19-47
+uses-sdk
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\ea4681236a4aed9cf5ec989098bfe464\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\ea4681236a4aed9cf5ec989098bfe464\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\3487f5211a09bde32b98947c76eb6dc4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\3487f5211a09bde32b98947c76eb6dc4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\8dd2c2ba743e4a5f301a98a5e7b829ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\8dd2c2ba743e4a5f301a98a5e7b829ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\6c67750c9f42f3ec57ea60232c762b24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\6c67750c9f42f3ec57ea60232c762b24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\e34ef94a4443a58ac835f85074b1aab1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\e34ef94a4443a58ac835f85074b1aab1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\d602c95821c909c36b94e0f3c9bf775e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\d602c95821c909c36b94e0f3c9bf775e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\6f3f6c172a59d9cb668c02610a1d1b8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\6f3f6c172a59d9cb668c02610a1d1b8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\64779d4780e4348994de2658e20b68b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\64779d4780e4348994de2658e20b68b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\4a8216272d39554742aa5b0c9e85ba45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\4a8216272d39554742aa5b0c9e85ba45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\6f54b70e2d19edff6b40e0eb0edb7d60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\6f54b70e2d19edff6b40e0eb0edb7d60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\d24f5c37c13f95ce6ca12e9464b69f41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\d24f5c37c13f95ce6ca12e9464b69f41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\82a7f199060271d182589eff841f043e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\82a7f199060271d182589eff841f043e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\cf3cd1984bd5f9eac250d92da077e340\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\cf3cd1984bd5f9eac250d92da077e340\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\9ab7756959477ae09eee262ffd3317ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\9ab7756959477ae09eee262ffd3317ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\9fd0b8fd06a422c154ad2f50a58f748f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\9fd0b8fd06a422c154ad2f50a58f748f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\4bf2ea3596072d52c6ecd8839a333685\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\4bf2ea3596072d52c6ecd8839a333685\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\74fcbb2276e496e8575a27088e1b74be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\74fcbb2276e496e8575a27088e1b74be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\b0c65a247183c99a3aa59b1e5adca20b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\b0c65a247183c99a3aa59b1e5adca20b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\eacebed6c2a908dd9bae0edeb8424c56\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\eacebed6c2a908dd9bae0edeb8424c56\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\aad1075727905f85aa92907e9bd8a567\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\aad1075727905f85aa92907e9bd8a567\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\94d710647ff0dc40cd4750d5bffa5e96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\94d710647ff0dc40cd4750d5bffa5e96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\caff1934dbdb7736347a5af48d31151e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\caff1934dbdb7736347a5af48d31151e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\f6353fc024442b178868d0e1e0dcc61c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\f6353fc024442b178868d0e1e0dcc61c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\5b63091a0fb658ef7a86b9768b564670\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\5b63091a0fb658ef7a86b9768b564670\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\96c591fdf828cff9531344a49bb67af8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\96c591fdf828cff9531344a49bb67af8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\c67f3258fde32c1dfde6c5909744e4b1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\c67f3258fde32c1dfde6c5909744e4b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\335d671d6119eec3d005896c93a6452d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Alaina\.gradle\caches\transforms-2\files-2.1\335d671d6119eec3d005896c93a6452d\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alaina\UW Homework\info_448\quizdroid\Quizdroid\app\src\main\AndroidManifest.xml
