@@ -9,7 +9,9 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
 
     val TAG = "**Main**"
-
+    companion object {
+        val EXTRA_SUBJECT = "edu.washington.alkwan.quizdroid.subject"
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -20,19 +22,22 @@ class MainActivity : AppCompatActivity() {
 
         mathButton.setOnClickListener {
             Log.v(TAG, "Math button clicked!")
-            val intent = Intent(this@MainActivity, MathActivity::class.java)
+            val intent = Intent(this@MainActivity, AppActivity::class.java)
+            intent.putExtra(EXTRA_SUBJECT,"Math")
             startActivity(intent)
         }
 
         physicsButton.setOnClickListener {
             Log.v(TAG, "Physics button clicked!")
-            val intent = Intent(this@MainActivity, PhysicsActivity::class.java)
+            val intent = Intent(this@MainActivity, AppActivity::class.java)
+            intent.putExtra(EXTRA_SUBJECT, "Physics")
             startActivity(intent)
         }
 
         marvelButton.setOnClickListener {
             Log.v(TAG, "Marvel button clicked!")
-            val intent = Intent(this@MainActivity, MarvelActivity::class.java)
+            val intent = Intent(this@MainActivity, AppActivity::class.java)
+            intent.putExtra(EXTRA_SUBJECT, "Marvel Superheroes")
             startActivity(intent)
         }
     }

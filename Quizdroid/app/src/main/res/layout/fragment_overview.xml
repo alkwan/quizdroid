@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="-55dp"
+        android:gravity="center_horizontal" xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/topicOverview"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" android:textAlignment="center"
+            android:paddingTop="16dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/summary" android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textSize="18sp"
+            android:paddingTop="16dp"
+    />
+    <TextView
+            android:text="@string/total_questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/totalQuestions" android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:paddingTop="16dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/numQuestions" android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:paddingBottom="32dp"/>
+    <Button
+            android:text="@string/begin_button"
+            android:layout_width="265dp"
+            android:layout_height="88dp" android:id="@+id/begin"
+    />
+</LinearLayout>
