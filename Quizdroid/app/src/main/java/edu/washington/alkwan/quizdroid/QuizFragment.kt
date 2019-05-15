@@ -4,7 +4,6 @@ package edu.washington.alkwan.quizdroid
 import android.content.Context
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,8 +16,7 @@ import android.widget.TextView
  * A simple [Fragment] subclass.
  */
 class QuizFragment : Fragment() {
-    private var quizListener: SubmitListener? = null
-    val quizApp: QuizApp = QuizApp()
+    private var listener: SubmitListener? = null
 
     interface SubmitListener {
         fun submit(answer: String?)
@@ -28,9 +26,9 @@ class QuizFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        quizApp.initData()
         val rootView = inflater.inflate(R.layout.fragment_quiz, container, false)
-        val question = quizApp.getQuiz(arguments?.getString("subject")!!).questions[arguments!!.getInt("numQuestion")]
+        val subject = arguments?.getString("subject")!!
+        val question = TopicRepository.instance.quizManager.getQuiz(subject).questions[arguments!!.getInt("numQuestion")]
 
         val questionContainer = rootView.findViewById<TextView>(R.id.questionName)
         questionContainer.text = question.question
@@ -49,8 +47,7 @@ class QuizFragment : Fragment() {
 
         val submitButton = rootView.findViewById<Button>(R.id.buttonSubmit)
         val answerGroup = rootView.findViewById<RadioGroup>(R.id.answerGroup)
-        val subject = quizApp.getQuiz(arguments?.getString("subject")!!).title
-        Log.v("QuizFragment", "Subject is ${subject} in QuizFragment")
+
         optionOne.setOnClickListener {
             submitButton.isEnabled = true
         }
@@ -68,7 +65,7 @@ class QuizFragment : Fragment() {
         submitButton.setOnClickListener {
             if (answerGroup.checkedRadioButtonId != -1) {
                 val answer = rootView.findViewById<RadioButton>(answerGroup.checkedRadioButtonId).text.toString()
-                quizListener?.submit(answer)
+                listener?.submit(answer)
             }
         }
 
@@ -80,7 +77,7 @@ class QuizFragment : Fragment() {
         super.onAttach(context)
 
         if (context is SubmitListener) {
-            quizListener = context
+            listener = context
         } else {
             throw error(context.toString() + " must implement SubmitListener interface")
         }
@@ -88,6 +85,6 @@ class QuizFragment : Fragment() {
 
     override fun onDetach() {
         super.onDetach()
-        quizListener = null
+        listener = null
     }
 }

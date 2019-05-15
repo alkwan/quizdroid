@@ -10,24 +10,18 @@ import android.util.Log
 import kotlinx.android.synthetic.main.activity_app.*
 
 class AppActivity : AppCompatActivity(), OverviewFragment.OnFragmentInteractionListener,
-      QuizFragment.SubmitListener, AnswerFragment.AnswerListener {
+    QuizFragment.SubmitListener, AnswerFragment.AnswerListener {
 
     private val OVERVIEW_FRAGMENT_TAG = "OverviewFragment"
     var numQuestion: Int = 0
     var correctAnswers: Int = 0
     var subject: String? = null
-    val quizApp: QuizApp = QuizApp()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_app)
 
-        // enable back button
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-
-        subject = intent.extras.getString(MainActivity.EXTRA_SUBJECT)
-        Log.v("QuizFragment", "Subject is ${subject}")
-        quizApp.initData()
+        subject = intent.extras!!.getString(MainActivity.EXTRA_SUBJECT)
 
         val quizOverviewFragment = OverviewFragment()
         quizOverviewFragment.arguments = Bundle().apply {
@@ -41,11 +35,11 @@ class AppActivity : AppCompatActivity(), OverviewFragment.OnFragmentInteractionL
     }
 
     override fun submit(answer: String?) {
-        var question = quizApp.getQuiz(subject!!).questions[numQuestion]
+        var question = TopicRepository.instance.quizManager.getQuiz(subject!!).questions[numQuestion]
         if (answer == question.options[question.answer]) {
             correctAnswers += 1
         }
-        Log.v("QuizFragment", "Subject is ${subject} in Submit")
+
         val quizAnswer = AnswerFragment()
         quizAnswer.arguments = Bundle().apply {
             putString("subject", subject)
@@ -60,7 +54,7 @@ class AppActivity : AppCompatActivity(), OverviewFragment.OnFragmentInteractionL
     }
 
     override fun next() {
-        if (quizApp.getQuiz(subject!!).numQuestions == numQuestion + 1) {
+        if (TopicRepository.instance.quizManager.getQuiz(subject!!).totalQuestions == numQuestion + 1) {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         } else {
