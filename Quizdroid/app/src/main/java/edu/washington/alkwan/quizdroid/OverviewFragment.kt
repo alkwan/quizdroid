@@ -15,7 +15,6 @@ import android.widget.TextView
  * A simple [Fragment] subclass.
  */
 class OverviewFragment : Fragment() {
-    val quizApp: QuizApp = QuizApp()
     private var listener: OnFragmentInteractionListener? = null
 
     override fun onCreateView(
@@ -23,10 +22,9 @@ class OverviewFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val rootView = inflater.inflate(R.layout.fragment_overview, container, false)
-        quizApp.initData()
 
         val subject = arguments?.getString("subject")
-        val quiz = quizApp.getQuiz(subject!!)
+        val quiz = TopicRepository.instance.quizManager.getQuiz(subject!!)
 
         val topicOverview = rootView.findViewById<TextView>(R.id.topicOverview)
         topicOverview.text = "Topic Overview: ${quiz.title}"
@@ -35,7 +33,7 @@ class OverviewFragment : Fragment() {
         topicSummary.text = quiz.description
 
         val topicQuestions = rootView.findViewById<TextView>(R.id.numQuestions)
-        topicQuestions.text = quiz.numQuestions.toString()
+        topicQuestions.text = quiz.totalQuestions.toString()
 
         val startButton = rootView.findViewById<Button>(R.id.begin)
         startButton.setOnClickListener {

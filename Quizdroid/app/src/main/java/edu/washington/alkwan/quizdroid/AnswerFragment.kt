@@ -14,8 +14,7 @@ import android.widget.TextView
  * A simple [Fragment] subclass.
  */
 class AnswerFragment : Fragment() {
-    private var answerListener: AnswerListener? = null
-    val quizApp: QuizApp = QuizApp()
+    private var listener: AnswerListener? = null
 
     interface AnswerListener {
         fun next()
@@ -25,10 +24,9 @@ class AnswerFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        quizApp.initData()
         val rootView = inflater.inflate(R.layout.fragment_answer, container, false)
         val num = arguments!!.getInt("numQuestion")
-        val question = quizApp.getQuiz(arguments?.getString("subject")!!).questions[num]
+        val question = TopicRepository.instance.quizManager.getQuiz(arguments?.getString("subject")!!).questions[num]
 
 
         val yourAnswer = rootView.findViewById<TextView>(R.id.yourAnswer)
@@ -41,7 +39,7 @@ class AnswerFragment : Fragment() {
         numCorrect.text = "${arguments?.getInt("correctAnswers")} " +
                 "out of ${num.plus(1)} correct!"
 
-        val final = quizApp.getQuiz(arguments?.getString("subject")!!).numQuestions
+        val final = TopicRepository.instance.quizManager.getQuiz(arguments?.getString("subject")!!).totalQuestions
         val nextButton = rootView.findViewById<Button>(R.id.buttonNext)
 
         if (final == num.plus(1)) {
@@ -49,7 +47,7 @@ class AnswerFragment : Fragment() {
         }
 
         nextButton.setOnClickListener {
-            answerListener?.next()
+            listener?.next()
         }
 
         // Inflate the layout for this fragment
@@ -59,7 +57,7 @@ class AnswerFragment : Fragment() {
     override fun onAttach(context: Context?) {
         super.onAttach(context)
         if (context is AnswerListener) {
-            answerListener = context
+            listener = context
         } else {
             throw error(context.toString() + " must implement AnswerListener interface")
         }
@@ -67,6 +65,6 @@ class AnswerFragment : Fragment() {
 
     override fun onDetach() {
         super.onDetach()
-        answerListener = null
+        listener = null
     }
 }
