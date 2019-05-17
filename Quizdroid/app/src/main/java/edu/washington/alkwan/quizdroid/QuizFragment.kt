@@ -4,6 +4,7 @@ package edu.washington.alkwan.quizdroid
 import android.content.Context
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,6 +12,7 @@ import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
+import kotlinx.android.synthetic.main.fragment_overview.*
 
 /**
  * A simple [Fragment] subclass.
@@ -27,8 +29,11 @@ class QuizFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val rootView = inflater.inflate(R.layout.fragment_quiz, container, false)
-        val subject = arguments?.getString("subject")!!
-        val question = TopicRepository.instance.quizManager.getQuiz(subject).questions[arguments!!.getInt("numQuestion")]
+        val index = arguments?.getInt("index")!!
+        val subject = arguments?.getString("subject")
+        val question = TopicRepository.instance.quizManager.getQuiz(index).questions[arguments!!.getInt("numQuestion")]
+        val total = TopicRepository.instance.quizManager.getQuiz(index).totalQuestions // correct in quizFragment
+        Log.v("QuizManager", "QuizFragment: Index is $index. Subject is $subject. Total Questions: $total")
 
         val questionContainer = rootView.findViewById<TextView>(R.id.questionName)
         questionContainer.text = question.question

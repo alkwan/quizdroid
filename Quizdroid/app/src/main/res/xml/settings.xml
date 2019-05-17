@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="prefcat_examples"
+                        android:title="Preferences"
+    >
+        <EditTextPreference
+                android:defaultValue="@string/number"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:title="Download Frequency" android:key="pref_download"
+                android:inputType="numberDecimal" android:digits="0123456789"/>
+        <EditTextPreference android:key="pref_url"
+                            android:title="Question URL"
+                            android:defaultValue="@string/url"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

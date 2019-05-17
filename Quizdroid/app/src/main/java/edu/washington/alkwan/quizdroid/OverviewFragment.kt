@@ -23,8 +23,9 @@ class OverviewFragment : Fragment() {
     ): View? {
         val rootView = inflater.inflate(R.layout.fragment_overview, container, false)
 
+        val index = arguments?.getInt("index")
         val subject = arguments?.getString("subject")
-        val quiz = TopicRepository.instance.quizManager.getQuiz(subject!!)
+        val quiz = TopicRepository.instance.quizManager.getQuiz(index!!)
 
         val topicOverview = rootView.findViewById<TextView>(R.id.topicOverview)
         topicOverview.text = "Topic Overview: ${quiz.title}"
@@ -37,7 +38,7 @@ class OverviewFragment : Fragment() {
 
         val startButton = rootView.findViewById<Button>(R.id.begin)
         startButton.setOnClickListener {
-            listener?.onClickBegin(subject)
+            listener?.onClickBegin(subject, index)
         }
         return rootView
     }
@@ -57,6 +58,6 @@ class OverviewFragment : Fragment() {
     }
 
     interface OnFragmentInteractionListener {
-        fun onClickBegin(subject: String?)
+        fun onClickBegin(subject: String?, index: Int)
     }
 }

@@ -4,6 +4,7 @@ package edu.washington.alkwan.quizdroid
 import android.content.Context
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,24 +27,26 @@ class AnswerFragment : Fragment() {
     ): View? {
         val rootView = inflater.inflate(R.layout.fragment_answer, container, false)
         val num = arguments!!.getInt("numQuestion")
-        val question = TopicRepository.instance.quizManager.getQuiz(arguments?.getString("subject")!!).questions[num]
-
+        val question = TopicRepository.instance.quizManager.getQuiz(arguments?.getInt("index")!!).questions[num]
 
         val yourAnswer = rootView.findViewById<TextView>(R.id.yourAnswer)
-        yourAnswer.text = "Your answer: ${arguments?.getString("yourAnswer")}"
+        val yourString = "Your answer: ${arguments?.getString("yourAnswer")}"
+        yourAnswer.text = yourString
 
         val correctAnswer = rootView.findViewById<TextView>(R.id.correctAnswer)
-        correctAnswer.text = "Correct answer: ${question.options[question.answer]}"
+        val answerString = "Correct answer: ${question.options[question.answer]}"
+        correctAnswer.text = answerString
 
         val numCorrect = rootView.findViewById<TextView>(R.id.numberCorrect)
-        numCorrect.text = "${arguments?.getInt("correctAnswers")} " +
-                "out of ${num.plus(1)} correct!"
+        val correctString = "${arguments?.getInt("correctAnswers")} out of ${num.plus(1)} correct!"
+        numCorrect.text = correctString
 
-        val final = TopicRepository.instance.quizManager.getQuiz(arguments?.getString("subject")!!).totalQuestions
+        val final = TopicRepository.instance.quizManager.getQuiz(arguments?.getInt("index")!!).totalQuestions
         val nextButton = rootView.findViewById<Button>(R.id.buttonNext)
-
+        Log.v("QuizManager", "AnswerFragment: Total questions: $final")
         if (final == num.plus(1)) {
-            nextButton.text = "Finish"
+            val finish = "Finish"
+            nextButton.text = finish
         }
 
         nextButton.setOnClickListener {
